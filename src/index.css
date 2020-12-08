@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.todo {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.mr-2 {
+  margin-right: 8px;
+}
+
+.mb-2 {
+  margin: 8px;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border: 1px solid;
+  margin-bottom: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.card span {
+  margin-bottom: 10px;
+}
+
+.gallery-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.gallery-img-wrap {
+  margin: 0 20px;
+  width: 350px;
+  text-align: center;
+}
+
+.gallery-img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+              0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+              0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.gallery-img-author {
+  text-align: center;
+}
