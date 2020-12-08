@@ -6,7 +6,7 @@ class Gallery extends Component {
 
     this.state = {
       gallery: [],
-      // activeImg: null
+      activeImg: null
     };
   }
 
